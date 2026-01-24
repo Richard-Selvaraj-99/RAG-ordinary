@@ -1,4 +1,6 @@
 TO create a general purpose Rag retrienval machine using chroma db as vectore store and cosine similarity for embeddings with default chunking values just keeping this project simple 
 connect the retrieval layer with a local LLM to  checkout how good is a rag model compared to fine tuning model 
-Most mistaken statement is Fine-tuning is not just to change model behaviour but to add extra model weights but seems to be more expensive in terms of computational power but RAG seems to be more accessible option where we  can modify the details if we need to 
+Most mistaken statement is Fine-tuning is not just to change in model behaviour but to add extra model weights to increase an LLM's knowledge base. 
+Fine-tuning seems to be more expensive in terms of computational power but RAG seems to be more accessible option since rag only consist of embedding layers and vectore store which does not exert heavy computation power as adding extra weights in fine-tuning
+The embedding layers and the vectore store seems to be running fine on a cpu but for LLM we would need a gpu,As for fine-tuning methods such as AWQ,GPTQ the extra data's are hardmerged(except for qlora) but to produce synthetic data we need LLM's to work for it Eg:LLAMA INDEX and then these syntetic data is converted to weights these weights are then hardmerged for AWQ,GPTQ models but for qlora method the weights are modular  
 RAG seems to be a less expensive approach although using an LLM in itself is an expensive approach RAG seems to be bit less expensive than fine tuning 
