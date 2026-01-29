@@ -32,7 +32,7 @@ The RAG pipeline consists of three core components:
 
 ### 3. Local LLM
 - Consumes retrieved context and generates final responses  
-- Typically requires **GPU** for efficient inference  
+- Typically requires **GPU** for efficient inference this was ran on an rtx 3070 with 8gb vram
 - Remains unchanged (no weight updates)
 
 ---
