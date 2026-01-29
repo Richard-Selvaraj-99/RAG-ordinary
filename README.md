@@ -109,6 +109,7 @@ While fine-tuning remains valuable for deep behavioral alignment and specialized
 
 ## Future Work
 
+- Change this beauty to modular coding to get it production ready 
 - Compare response quality between RAG and fine-tuned models
 - Benchmark latency and cost differences
 - Experiment with different embedding models
